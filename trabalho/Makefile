@@ -1,8 +1,8 @@
 CC=gcc 
-CFALGS= -Wall -ansi -pedantic 
+CFALGS= -Wall -ansi -pedantic -o
 all: lib
 	clear
-	$(CC) $(CFALGS) -o prog  teste.c  jogo.a
+	$(CC) $(CFALGS) prog  teste.c  jogo.a
 lib:
 	$(CC)  -c jogo.c -o jogo.o
 	ar rv jogo.a  jogo.o

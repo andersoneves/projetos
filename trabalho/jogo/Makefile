@@ -1,8 +1,8 @@
 CC=gcc 
-CFALGS= -Wall -ansi -pedantic 
+CFALGS= -Wall -ansi -pedantic -o
 all: clean
 	clear
-	$(CC) $(CFALGS) -o prog  teste.c  jogo.a
+	$(CC) $(CFALGS) prog  teste.c  jogo.a
 clean: 
 	clear
 	rm -f prog
