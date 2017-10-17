@@ -1,0 +1,22 @@
+criar um modelo de banco e um sistema web para
+	gerenciar um blog 
+	criar editar e excluir posts
+	criar editar e excluir comentarios
+	criar editar e excluir usuarios
+
+usuarios 
+
+	adm geral  controle total do sistema (criar editar exlxuir qualquer emento incluindo usuarios e permiçoes)
+	adm gerencia todos os posts e comentarios
+	redator pode criar posts e gerenciar comentarios
+	usuario pode criar e editar e excluir seus prorprios comentarios
+
+As funcionalidades devem ser separadas em arquivos e utilizar funçoes genericas 
+O site deve comter um menu superior para gerenciar usuarios e permições
+O conteudo dos posts devem aparecer em uma div centralizada 
+Para cada post deve ser exibido os seus comentarios
+
+A exclusão deve ser virtual não os registros devem ser mantidos no banco
+Toda ação deve manter o ultimo usuario que a realizou e a data 
+
+Todo o css deve ser criado em um arquivo chamdo estilo.css 
