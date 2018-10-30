@@ -47,6 +47,8 @@ function troca(a,i,j)
 	a[j]=aux
 end
 
+
+
 function imprimev(a,x)
 	if(x=="asc")then
 			for i=1,#a do
@@ -87,3 +89,4 @@ print("maior", maior(11.10,11.12))
 print("fatorial",fatorial(x))
 print("pow",pw(x,y))
 	
+
